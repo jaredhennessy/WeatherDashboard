@@ -1,4 +1,4 @@
-# Weather Dashboard
+# [Weather Dashboard](https://jaredhennessy.github.io/WeatherDashboard/)
 
 On page load, I create a global array to store the city search history and a global variable to keep track of the last city searched. If there is a list of cities in localstorage, I bring that into the cities array and populate the list of buttons, one for each previously-searched city. To avoid duplication, I start this list from scratch every time there's a change. The last button in the list will clear localstorage.
 
